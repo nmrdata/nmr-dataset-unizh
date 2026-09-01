@@ -1,0 +1,7 @@
+menuLabel: Series 1
+default:
+  description: >-
+    Determine the structure of the compound from its NMR data. Every spectrum is
+    a raw FID recorded at 500 MHz in D2O at 298 K, so process it (Fourier
+    transform, phase and baseline correction, referencing) before interpreting
+    it.

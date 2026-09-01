@@ -1,0 +1,34 @@
+name: gh-pages deployment
+
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  ghpages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Use Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: install nmrium and create toc
+        run: |
+          npm i nmrium-cli --global
+          nmrium deleteJSONs
+          # createExercisesCorrection reads the structure.mol of each exercise
+          # folder, and createExercisesTOC consumes those folders into archives,
+          # so the answer key has to be built first.
+          nmrium createExercisesCorrection
+          nmrium createExercisesTOC -i true -s true
+          nmrium deleteStructures
+          nmrium appendLinks
+          git status
+          git remote -v
+      - name: push to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: .
+          single-commit: true

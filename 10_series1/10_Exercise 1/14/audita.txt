@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= aci
+$$ /opt/topspin3.2/data/aci/nmr/A_Laurent_190525/14/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-05-19 13:56:28.195 +0200>,<aci>,<chem-nmr500>,<go4>,<TopSpin 3.5.7>,
+      <created by zg
+	started at 2025-05-19 13:52:37.797 +0200,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       31 97 3A DA F0 08 8D 37 3F DC 37 8D 19 73 88 39
+       data hash MD5: 64K
+       3A BE 22 D1 15 8D 85 55 1F 10 79 04 66 AA 0B EC>)
+##END=
+
+$$ hash MD5
+$$ E2 2E 23 30 0E D7 8A E5 BA FC EF B8 03 C3 F7 B9

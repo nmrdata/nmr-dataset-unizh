@@ -1,0 +1,20 @@
+description: >-
+  Determine the structure of the compound from its NMR data. Every spectrum is a
+  raw FID recorded at 500 MHz in D2O at 298 K, so process it (Fourier transform,
+  phase and baseline correction, referencing) before interpreting it. Two
+  samples were measured in the same session: experiments 1 to 7 and experiments
+  11 to 18.
+
+  Hint 1 - Work out the degrees of unsaturation from the molecular formula, then
+  decide how many of them are rings and how many are multiple bonds.
+
+  Hint 2 - The solvent is D2O, so every exchangeable proton is invisible: the 1H
+  spectrum shows fewer hydrogens than the formula contains.
+
+  Hint 3 - DEPT135 separates CH and CH3 (up) from CH2 (down), DEPT90 keeps only
+  CH, and the HSQC attaches each proton to the carbon carrying it. Sort the six
+  carbons this way before drawing anything.
+
+  Hint 4 - The COSY chains the CH2 groups into a fragment. Close the ring with
+  the heteroatom, then use the long-range HMBC correlations of the olefinic
+  proton to decide where the carboxyl carbon sits.

@@ -1,0 +1,23 @@
+##TITLE= Parameter file, TopSpin 3.5 pl 7
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 349	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= aci
+$$ 2025-05-19 22:31:35.736 +0200  aci@chem-nmr500
+$$ /opt/topspin3.2/data/aci/nmr/A_Laurent_190525/18/acqu2s
+$$ process /opt/topspin3.5pl7/prog/mod/go4
+##$ACQT0= 0
+##$BF1= 125.787963
+##$FnMODE= 1
+##$NUC1= <13C>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 320
+##$O1= 11910.5999999931
+##$ProjAngle= 0
+##$SFO1= 125.7998736
+##$SW= 179.844651204326
+##$SW_h= 22624.4343891403
+##$TD= 320
+##END=

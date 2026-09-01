@@ -1,0 +1,34 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= aci
+$$ /opt/topspin3.2/data/aci/nmr/A_Laurent_190525/7/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2025-05-19 13:31:15.803 +0200>,<aci>,<chem-nmr500>,<go4>,<TopSpin 3.5.7>,
+      <created by zg
+	started at 2025-05-19 13:15:57.089 +0200,
+	POWCHK enabled, PULCHK disabled,
+       terminated by command 'stop'
+       configuration hash MD5:
+       31 97 3A DA F0 08 8D 37 3F DC 37 8D 19 73 88 39
+       data hash MD5: 1098 * 253
+       DB 74 FA CE 0D 68 14 A0 B7 D2 37 A2 E2 04 DC D7>)
+(   2,<2025-05-19 13:31:23.249 +0200>,<aci>,<chem-nmr500>,<proc2d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       xfb F2: SI = 2K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 F1: SI = 1K ME_mod = 2 NCOEF = 32 WDW = 3 SSB = 0 FT_mod = 6 FCOR = 0.5 PH_mod = 2
+       data hash MD5: 2K * 1K
+       97 96 93 67 E0 7D 19 AA E4 5E 71 7E CA 42 2D 2A>)
+(   3,<2025-05-19 13:31:25.936 +0200>,<aci>,<chem-nmr500>,<proc2d>,<TopSpin 3.5.7>,
+      <abs1 F1: ABSG = 5 ABSF1 = 172.628 ABSF2 = 16.74788
+       data hash MD5: 2K * 1K
+       19 98 3F 04 C3 1D 56 91 EC 5C AE 46 AB 99 19 DD>)
+(   4,<2025-05-19 13:31:28.585 +0200>,<aci>,<chem-nmr500>,<proc2d>,<TopSpin 3.5.7>,
+      <abs2 F2: ABSG = 5 ABSF1 = 7.715378 ABSF2 = 2.217576
+       data hash MD5: 2K * 1K
+       27 D6 14 9F 99 59 BF 3E 0E 3D 1D 2B 41 29 B8 5F>)
+(   5,<2025-05-21 12:01:31.613 +0200>,<aci>,<chem-nmr500>,<disknew>,<TopSpin 3.5.7>,
+      <processed data deleted>)
+##END=
+
+$$ hash MD5
+$$ 71 C7 A3 19 3C FB 56 10 E0 5A 34 B8 2E 73 AC E9
