@@ -1,0 +1,21 @@
+[
+  {
+    "id": "80jCPgUiiqBmO8i1sa9s+a5rw0c=",
+    "mf": "C6H9NO2",
+    "description": "Determine the structure of the compound from its NMR data.",
+    "idCodeHash": "6abba10467b964c5b0ee060ddb5a7f5d",
+    "file": "./Series 1/Exercise 1.nmrium.zip",
+    "title": "Exercise 1",
+    "selected": true,
+    "idCode": "difD@NADfyWaZZj@@"
+  },
+  {
+    "id": "hgYfRvnorEmwo1vlZpvGUgReK74=",
+    "mf": "C7H11NO2",
+    "description": "Determine the structure of the compound from its NMR data.",
+    "idCodeHash": "62311ad167bcec9daa732df0bea0d538",
+    "file": "./Series 1/Exercise 2.nmrium.zip",
+    "title": "Exercise 2",
+    "idCode": "deVD@NADfyUxVfjh@@"
+  }
+]
